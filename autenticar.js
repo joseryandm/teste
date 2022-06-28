@@ -32,8 +32,6 @@ function user2(dados) {
     senha2 = dados[1].User2
 }
 
-
-
 function entrar(dados) {
     if (usuario.value == usuario1 && senha.value === senha1 || usuario.value == usuario2 && senha.value === senha2) {
         fechar.setAttribute('style', 'display: none')
