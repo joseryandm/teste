@@ -1,0 +1,158 @@
+body {
+    font-family: 'lobster';
+    text-align: center;
+}
+
+#area {
+    background-color: whitesmoke;
+    opacity: 0.9;
+    margin-top: 50px;
+    padding: 2px 2px 2px 2px;
+    position: relative;
+    color: black;
+    left: 37%;
+    top: 30%;
+    width: 360px;
+    height: auto;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    display: none;
+    align-items: center;
+}
+
+#area2 {
+    background-color: whitesmoke;
+    opacity: 0.9;
+    margin-top: 50px;
+    padding: 2px 2px 2px 2px;
+    position: absolute;
+    color: black;
+    left: 37%;
+    top: 5%;
+    width: 360px;
+    height: auto;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    align-items: center;
+}
+
+#intro {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    color: white;
+    top: 0;
+    background: rgba(0, 0, 0, 0.162);
+    background-position: 30% 45%;
+    background-size: cover;
+    position: absolute;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#Textos {
+    font-size: 1.3em;
+}
+
+button {
+    margin: 0 5px;
+    padding: 2px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(2, 209, 2)/*var(btcerto)*/
+    ;
+}
+
+input {
+    width: 300px;
+}
+
+#tipos {
+    float: right;
+    right: 1%;
+    position: absolute;
+    color: blue;
+    margin-top: 9px;
+    top: 7%;
+    padding: 2px 2px 2px 2px;
+    border: 1px solid black;
+    width: 365px;
+    height: 170px;
+    overflow: auto;
+    font-size: 1.2em;
+    display: none;
+}
+
+details {
+    text-align: left;
+}
+
+h3 {
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+#errado {
+    background-color: crimson;
+    color: white;
+    width: 60px;
+    border: 1px;
+}
+
+#correto {
+    background-color: limegreen;
+    color: white;
+    width: 60px;
+    border: 1px;
+}
+
+details {
+    cursor: pointer;
+}
+
+#user {
+    width: 70%;
+    position: relative;
+    right: 0.1%;
+}
+
+#senha {
+    width: 72%;
+    position: relative;
+    right: 1%;
+    margin-top: 10px;
+}
+
+#user1 {
+    float: left;
+    left: 1%;
+    position: absolute;
+}
+
+#senha1 {
+    margin-top: 10px;
+    float: left;
+    left: 1%;
+    position: absolute;
+}
+
+#login {
+    right: 50%;
+    width: 60px;
+}
+
+#msgError {
+    text-align: center;
+    color: #ff0000;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}
